@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page de connection - Med Ali TECH</title>
+        <link rel="Icon du site" href="data/icon-site.png"> 
+
+        <link rel="stylesheet" href="CSS/login_style.css">
+        <!-- CSS -->
+
+        <script src="https://kit.fontawesome.com/64cb0e33c2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+
+        <script defer src="js/login-js.js"></script> 
+        <!-- Java script -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-box">
+                <h1 id="titre">S'inscrire</h1>
+                
+                <form method="POST" action="index.html">
+                    <div class="input-group">
+
+                        <div class="input-field" id="nameField">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Nom d'utilisateur" required minlength="5" smaxlenght="10"/>
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Adresse email">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Mot de passe" required minlength="8">
+                        </div>
+
+                        <p>Mot de passe oublié ? <a href="https://support.google.com/mail/answer/41078?hl=fr&co=GENIE.Platform%3DDesktop" target="_blank">Cliquez ici</a></p>
+                    </div>
+
+                    <div class="btn-field">
+                        <button type="submit" id="inscrirebtn">S'inscrire</button>
+                        <button type="submit" id="connecterbtn" class="desactiver">Se connecter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
